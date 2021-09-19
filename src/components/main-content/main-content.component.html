@@ -1,0 +1,4 @@
+<div class="lessons-list-container v-h-center-block-parent">
+  <div *ngIf="selectedProduct">Name: {{ selectedProduct?.name }}</div>
+  <app-custom-product-list [products]="products"></app-custom-product-list>
+</div>

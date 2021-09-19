@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { SharedComponentModule } from 'src/components/shared-component.module';
 
 import { AppComponent } from './app.component';
 
@@ -8,6 +9,7 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
+    SharedComponentModule,
     BrowserModule
   ],
   providers: [],
